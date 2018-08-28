@@ -14,22 +14,26 @@
 	text-align: center;
 
 }
-#container #no{
-	left:120px;
+#no{
+	top:120px;
+	left:703px;
 }
-#container button{
+#yes{
+	top:120px;
+	left:583px;
+}
+button{
 	background-color: #1fe4be;
 	border-radius: 3px;
 	border:1px solid #1fe4be;
 	color:#fff;
 	cursor: pointer;
 	height: 30px;
-	margin:40px 33px;
-	transition: 0.2s;
+	transition: 0.3s;
 	width:50px;
 	position: absolute;
 }
-#container button:hover{
+button:hover{
 	background-color: #fff;
 	color:#1fe4be;
 }
